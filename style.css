@@ -1,0 +1,147 @@
+/*===== Base =====*/
+*, *:before, *:after {
+  box-sizing: border-box ; 
+  padding: 0 ;
+  margin: 0 ;  
+}
+
+body {
+  font-family: Arial;
+}
+
+/*===== Layout =====*/
+#navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100vw;
+  padding-right: 1rem;
+  background-color: black;
+  color: white;
+}
+
+#navbar a {
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: gainsboro;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#projects {
+  padding: 6rem 2rem;
+  min-height: 100vh;
+}
+
+#projects h2 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#projects button {
+  margin: auto;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  height: 100vh;
+  background-color: gainsboro;
+  font-size: 1.5rem;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  background-color: black;
+  color: white;
+}
+
+#footer p {
+  font-weight: bold;
+}
+
+/*===== Classes & Styles =====*/
+em {
+  margin-top: 1rem;
+}
+
+hr {
+  margin-bottom: 3rem; 
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px dashed gray;
+}
+
+#projects-flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  margin-bottom: 3rem;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+
+.project-title img {
+  height: 200px;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.project-title h3 {
+  padding: 1rem;
+  text-align: center;
+}
+
+#all-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#all-projects a {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+#contact-links {
+  margin-top: 4rem;
+}
+
+#contact-links a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
